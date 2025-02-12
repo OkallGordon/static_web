@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="script" href="sceipts.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <a href="#" class="logo">
+                    <span class="logo-text">O</span>
+                    <span class="logo-dot"></span>
+                    <span class="logo-full">Okall</span>
+                </a>
+            </div>
+    
+            <div class="nav-elements">
+                <ul class="nav-links">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active">
+                            <i class="fas fa-home"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">
+                            <i class="fas fa-user"></i>
+                            <span>About</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">
+                            <i class="fas fa-code"></i>
+                            <span>Projects</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">
+                            <i class="fas fa-envelope"></i>
+                            <span>Contact</span>
+                        </a>
+                    </li>
+                </ul>
+    
+                <div class="nav-actions">
+                    <a href="#contact" class="hire-btn">
+                        <span>Hire Me</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <button class="theme-toggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </div>
+            </div>
+    
+            <button class="hamburger" aria-label="Toggle Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+    
+    <header>
+        <header class="hero" id="home">
+            <div class="hero-background">
+                <div class="overlay"></div>
+                <div class="animated-shapes">
+                    <div class="shape shape1"></div>
+                    <div class="shape shape2"></div>
+                    <div class="shape shape3"></div>
+                </div>
+            </div>
+        
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <div class="title-wrapper">
+                            <span class="greeting">Welcome to my portfolio</span>
+                            <h1 class="main-title">
+                                Hi, I'm <span class="highlight">Okall Gordon</span>
+                            </h1>
+                            <div class="role-wrapper">
+                                <span class="role-prefix">I'm a</span>
+                                <div class="roles">
+                                    <span>Creative Developer</span>
+                                    <span>UI/UX Designer</span>
+                                    <span>Problem Solver</span>
+                                    <span>Digital Creator</span>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <p class="hero-description">
+                            Transforming ideas into exceptional digital experiences through 
+                            creative development and innovative design solutions.
+                        </p>
+        
+                        <div class="hero-buttons">
+                            <a href="#projects" class="btn primary-btn">
+                                <span>View My Work</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                            <a href="#contact" class="btn secondary-btn">
+                                <span>Let's Talk</span>
+                                <i class="fas fa-message"></i>
+                            </a>
+                        </div>
+        
+                        <div class="hero-stats">
+                            <div class="stat">
+                                <span class="stat-number" data-count="100">100</span>
+                                <span class="stat-label">Projects Completed</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number" data-count="50">50</span>
+                                <span class="stat-label">Happy Clients</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number" data-count="5">5</span>
+                                <span class="stat-label">Years Experience</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="hero-image">
+                        <div class="image-container">
+                            <img src="/api/placeholder/500/600" alt="Okall Gordon" class="profile-image">
+                            <div class="floating-elements">
+                                <div class="tech-stack">
+                                    <div class="tech-item"><i class="fab fa-html5"></i></div>
+                                    <div class="tech-item"><i class="fab fa-css3-alt"></i></div>
+                                    <div class="tech-item"><i class="fab fa-js"></i></div>
+                                    <div class="tech-item"><i class="fab fa-react"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </header>
+
+    <main>
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">DISCOVER</span>
+                    <h2 class="section-title">About Me</h2>
+                </div>
+        
+                <div class="about-content">
+                    <div class="about-info">
+                        <div class="about-image">
+                            <img src="/api/placeholder/400/400" alt="Profile Image">
+                            <div class="experience-badge">
+                                <span class="years">5+</span>
+                                <span class="text">Years<br>Experience</span>
+                            </div>
+                        </div>
+                        
+                        <div class="about-text">
+                            <h3>Transforming Ideas into Digital Reality</h3>
+                            <p class="intro">Passionate web developer with expertise in creating stunning, user-centric websites and applications. I combine technical excellence with creative design to deliver exceptional digital experiences.</p>
+                            
+                            <div class="key-points">
+                                <div class="point">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Clean and Modern Designs</span>
+                                </div>
+                                <div class="point">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Responsive and Mobile-First Approach</span>
+                                </div>
+                                <div class="point">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Performance Optimization</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="skills-section">
+                        <h3>Technical Expertise</h3>
+                        <div class="skills-grid">
+                            <div class="skill-category">
+                                <h4>Frontend Development</h4>
+                                <div class="skill-bars">
+                                    <div class="skill">
+                                        <div class="skill-header">
+                                            <span class="skill-name">HTML5/CSS3</span>
+                                            <span class="skill-percentage">90%</span>
+                                        </div>
+                                        <div class="skill-bar">
+                                            <div class="skill-level" style="width: 90%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill">
+                                        <div class="skill-header">
+                                            <span class="skill-name">JavaScript</span>
+                                            <span class="skill-percentage">85%</span>
+                                        </div>
+                                        <div class="skill-bar">
+                                            <div class="skill-level" style="width: 85%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill">
+                                        <div class="skill-header">
+                                            <span class="skill-name">React.js</span>
+                                            <span class="skill-percentage">80%</span>
+                                        </div>
+                                        <div class="skill-bar">
+                                            <div class="skill-level" style="width: 80%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="skill-category">
+                                <h4>Design & Tools</h4>
+                                <div class="skill-bars">
+                                    <div class="skill">
+                                        <div class="skill-header">
+                                            <span class="skill-name">UI/UX Design</span>
+                                            <span class="skill-percentage">85%</span>
+                                        </div>
+                                        <div class="skill-bar">
+                                            <div class="skill-level" style="width: 85%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill">
+                                        <div class="skill-header">
+                                            <span class="skill-name">Figma</span>
+                                            <span class="skill-percentage">80%</span>
+                                        </div>
+                                        <div class="skill-bar">
+                                            <div class="skill-level" style="width: 80%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="skill">
+                                        <div class="skill-header">
+                                            <span class="skill-name">Git/GitHub</span>
+                                            <span class="skill-percentage">75%</span>
+                                        </div>
+                                        <div class="skill-bar">
+                                            <div class="skill-level" style="width: 75%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </section>
+    </main>
+
+    <footer>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <!-- Contact Information -->
+                    <div class="footer-section">
+                        <h3>Get in Touch</h3>
+                        <p><i class="fas fa-envelope"></i> email@example.com</p>
+                        <p><i class="fas fa-phone"></i> (+254) 700 000 000</p>
+                        <p><i class="fas fa-location-dot"></i> Kisumu, Kenya</p>
+                    </div>
+        
+                    <!-- Quick Links -->
+                    <div class="footer-section">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+        
+                    <!-- Social Media -->
+                    <div class="footer-section">
+                        <h3>Connect With Me</h3>
+                        <div class="social-links">
+                            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Copyright -->
+                <div class="footer-bottom">
+                    <p>&copy; 2025 Okall Gordon. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </footer>
+</body>
+</html>
