@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Website</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="script" href="sceipts.js">
+    <link rel="script" href="scripts.js">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
     <nav class="navbar">
@@ -147,6 +149,7 @@
 
     <main>
         <section id="about" class="about-section">
+            <div class="skill-level" data-level="90%"></div>
             <div class="container">
                 <div class="section-header">
                     <span class="section-subtitle">DISCOVER</span>
@@ -219,7 +222,7 @@
                                     </div>
                                 </div>
                             </div>
-        
+
                             <div class="skill-category">
                                 <h4>Design & Tools</h4>
                                 <div class="skill-bars">
@@ -256,7 +259,94 @@
                     </div>
                 </div>
             </div>
-            </section>
+        </section>
+        <!-- projects section-->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">PORTFOLIO</span>
+                    <h2 class="section-title">Featured Projects</h2>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="/api/placeholder/400/300" alt="E-commerce Website">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link">
+                                        <i class="fas fa-eye"></i> View Project
+                                    </a>
+                                    <a href="#" class="project-link">
+                                        <i class="fas fa-code"></i> View Code
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>E-commerce Platform</h3>
+                            <p>A full-featured online store with payment integration and inventory management.</p>
+                            <div class="project-tags">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="/api/placeholder/400/300" alt="Task Management App">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link">
+                                        <i class="fas fa-eye"></i> View Project
+                                    </a>
+                                    <a href="#" class="project-link">
+                                        <i class="fas fa-code"></i> View Code
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Task Management Dashboard</h3>
+                            <p>A responsive task management system with real-time updates and team collaboration.</p>
+                            <div class="project-tags">
+                                <span>Vue.js</span>
+                                <span>Firebase</span>
+                                <span>Tailwind</span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Project 3 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="/api/placeholder/400/300" alt="Portfolio Website">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" class="project-link">
+                                        <i class="fas fa-eye"></i> View Project
+                                    </a>
+                                    <a href="#" class="project-link">
+                                        <i class="fas fa-code"></i> View Code
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Personal Portfolio</h3>
+                            <p>A modern portfolio website with smooth animations and responsive design.</p>
+                            <div class="project-tags">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
